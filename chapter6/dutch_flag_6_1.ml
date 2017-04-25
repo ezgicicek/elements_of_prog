@@ -113,3 +113,15 @@ let j = ref (Array.length arr -1) in
 let i = ref 0 in 
 two_way_partition arr i j false (fun (x,y) -> y);
 arr
+
+
+
+(* Variant 4: Given an array with bool keys like (n,b), reorder so
+that elements with false keys appear first but elements with true keys
+keep their original order *)
+let false_first_true_ordered arr =
+(* let j = ref (Array.length arr -1) in *)
+(* let i = ref 0 in  *)
+(* two_way_partition arr i j false (fun (x,y) -> y); *)
+(* TODO: reverse the true ordered (I think) *)
+arr
